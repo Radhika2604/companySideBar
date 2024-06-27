@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-content-{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.list-main-{
+    background-color: rgb(223, 237, 243);
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+overflow: hidden;
+}
+.list-image-{
+    margin: 10px;
+    border: 1px solid rgb(28, 78, 102);
+}
+.list-news-{
+    margin: 10px;
+}
+.list-cancel-btn{
+    display: flex;
+}
+.list-btn-list{
+    border-radius: 40px;
+    width: 40px;
+}
